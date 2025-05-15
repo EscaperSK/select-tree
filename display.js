@@ -85,7 +85,7 @@ function createElement(item, onItemClick) {
     });
 
     const label = document.createElement('label');
-    label.replaceChildren(checkbox, `${item.id}`);
+    label.replaceChildren(checkbox, `${item.option}`);
 
     const children = [];
 
